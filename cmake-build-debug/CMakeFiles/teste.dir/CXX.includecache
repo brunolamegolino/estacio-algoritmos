@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/teste c++ 01/teste.cpp
+iostream
+-
+string
+-
+cmath
+-
+

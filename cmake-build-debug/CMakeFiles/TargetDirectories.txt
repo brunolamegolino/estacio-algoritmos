@@ -1,0 +1,4 @@
+C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/CMakeFiles/estacio___analise_e_dev_de_sistemas.dir
+C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/CMakeFiles/teste.dir
