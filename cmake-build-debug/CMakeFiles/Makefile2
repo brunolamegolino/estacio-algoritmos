@@ -53,45 +53,45 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas"
+CMAKE_SOURCE_DIR = C:\Users\Bruno\Documents\git\estacio-algoritmos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/estacio___analise_e_dev_de_sistemas.dir
+# Target rules for target CMakeFiles/estacio-algoritmos.dir
 
 # All Build rule for target.
-CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/all:
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/depend
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target estacio___analise_e_dev_de_sistemas"
-.PHONY : CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/all
+CMakeFiles/estacio-algoritmos.dir/all:
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/depend
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target estacio-algoritmos"
+.PHONY : CMakeFiles/estacio-algoritmos.dir/all
 
 # Include target in all.
-all: CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/all
+all: CMakeFiles/estacio-algoritmos.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/rule
+CMakeFiles/estacio-algoritmos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/estacio-algoritmos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/estacio-algoritmos.dir/rule
 
 # Convenience name for target.
-estacio___analise_e_dev_de_sistemas: CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/rule
+estacio-algoritmos: CMakeFiles/estacio-algoritmos.dir/rule
 
-.PHONY : estacio___analise_e_dev_de_sistemas
-
-# clean rule for target.
-CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/clean:
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/clean
-.PHONY : CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/clean
+.PHONY : estacio-algoritmos
 
 # clean rule for target.
-clean: CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/clean
+CMakeFiles/estacio-algoritmos.dir/clean:
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/clean
+.PHONY : CMakeFiles/estacio-algoritmos.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/estacio-algoritmos.dir/clean
 
 .PHONY : clean
 
@@ -102,7 +102,7 @@ clean: CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/clean
 CMakeFiles/teste.dir/all:
 	$(MAKE) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/depend
 	$(MAKE) -f CMakeFiles\teste.dir\build.make CMakeFiles/teste.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target teste"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target teste"
 .PHONY : CMakeFiles/teste.dir/all
 
 # Include target in all.
@@ -112,9 +112,9 @@ all: CMakeFiles/teste.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/teste.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/teste.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/teste.dir/rule
 
 # Convenience name for target.

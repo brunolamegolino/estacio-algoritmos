@@ -8,28 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="estacio___analise_e_dev_de_sistemas">
-				<Option output="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/estacio___analise_e_dev_de_sistemas.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
+			<Target title="estacio-algoritmos">
+				<Option output="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/estacio-algoritmos.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 estacio___analise_e_dev_de_sistemas"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 estacio-algoritmos"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="estacio___analise_e_dev_de_sistemas/fast">
-				<Option output="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/estacio___analise_e_dev_de_sistemas.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
+			<Target title="estacio-algoritmos/fast">
+				<Option output="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/estacio-algoritmos.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,25 +55,25 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 estacio___analise_e_dev_de_sistemas/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 estacio-algoritmos/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="teste">
-				<Option output="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/teste.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
+				<Option output="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/teste.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -97,15 +87,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 teste"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 teste"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="teste/fast">
-				<Option output="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/teste.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug"/>
+				<Option output="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/teste.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -119,20 +109,30 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 teste/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 teste/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Bruno/Documents/git/estacio-algoritmos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/main.cpp">
-			<Option target="estacio___analise_e_dev_de_sistemas"/>
+		<Unit filename="C:/Users/Bruno/Documents/git/estacio-algoritmos/main.cpp">
+			<Option target="estacio-algoritmos"/>
 		</Unit>
-		<Unit filename="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/teste c++ 01/teste.cpp">
+		<Unit filename="C:/Users/Bruno/Documents/git/estacio-algoritmos/teste c++ 01/teste.cpp">
 			<Option target="teste"/>
 		</Unit>
-		<Unit filename="C:/Users/Bruno/Documents/Git/estacio - analise e dev de sistemas/CMakeLists.txt">
+		<Unit filename="C:/Users/Bruno/Documents/git/estacio-algoritmos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

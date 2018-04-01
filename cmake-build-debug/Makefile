@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas"
+CMAKE_SOURCE_DIR = C:\Users\Bruno\Documents\git\estacio-algoritmos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bruno\Documents\Git\estacio - analise e dev de sistemas\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bruno\Documents\git\estacio-algoritmos\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named estacio___analise_e_dev_de_sistemas
+# Target rules for targets named estacio-algoritmos
 
 # Build rule for target.
-estacio___analise_e_dev_de_sistemas: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 estacio___analise_e_dev_de_sistemas
-.PHONY : estacio___analise_e_dev_de_sistemas
+estacio-algoritmos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 estacio-algoritmos
+.PHONY : estacio-algoritmos
 
 # fast build rule for target.
-estacio___analise_e_dev_de_sistemas/fast:
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/build
-.PHONY : estacio___analise_e_dev_de_sistemas/fast
+estacio-algoritmos/fast:
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/build
+.PHONY : estacio-algoritmos/fast
 
 #=============================================================================
 # Target rules for targets named teste
@@ -141,7 +141,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -150,7 +150,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -159,7 +159,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\estacio___analise_e_dev_de_sistemas.dir\build.make CMakeFiles/estacio___analise_e_dev_de_sistemas.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\estacio-algoritmos.dir\build.make CMakeFiles/estacio-algoritmos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 teste_c++_01/teste.obj: teste_c++_01/teste.cpp.obj
@@ -195,10 +195,10 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... estacio___analise_e_dev_de_sistemas
+	@echo ... estacio-algoritmos
 	@echo ... edit_cache
 	@echo ... teste
+	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
