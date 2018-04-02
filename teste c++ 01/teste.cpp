@@ -26,7 +26,7 @@ int main(void) {
     verificao = ('a'=='A');
     cout << verificao;
     */
-    ///* IMC
+    /* IMC
     float altura, peso, IMC;
     cout << "IMC\n\n";
     cout << "altura:", cin >> altura;
@@ -53,7 +53,13 @@ int main(void) {
     if(IMC>40){
         cout << "\n Obesidade III";
     }
+    */
+    ///* if ternario
+    int i;
+    
+    cout << "Impar ou par" << "\n\nDigite um numero:", cin >> i;
+    (i%2==0)? cout << "O numero e par" : cout << "O numero e impar";
     //*/
-    cout << "\n Fim do programa.";
+    cout << "\n\n Fim do programa.";
     return 0;
 }
