@@ -54,11 +54,45 @@ int main(void) {
         cout << "\n Obesidade III";
     }
     */
-    ///* if ternario
+    /* if ternario
     int i;
     
     cout << "Impar ou par" << "\n\nDigite um numero:", cin >> i;
     (i%2==0)? cout << "O numero e par" : cout << "O numero e impar";
+    */
+    ///* switch case
+    int mes, dias;
+    bool erro;
+    cout<<"\n\nDigite um mes(numero) e saiba quantos dias tem : ",cin>>mes;
+    switch (mes) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            dias = 31;
+            break;
+        case 2:
+            dias = 28;
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            dias = 30;
+            break;
+        default:
+            //erro = true;
+            break;
+    }
+    //if(erro){
+    if(mes>12 || mes<1 ){
+        cout<<"Mes nao esta dentro de 1 a 12."<<endl;
+    }else{
+        cout<<"Mes ",cout<<mes, cout<<" tem ",cout<<dias, cout<<" dias. "<<endl;
+    }
     //*/
     cout << "\n\n Fim do programa.";
     return 0;
